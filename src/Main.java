@@ -4,10 +4,10 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-        String tekija = "Erik Riibe"; 
-        int luku1 = 5; 
-        int luku2 = 2; 
-        int tulo; 
+        String tekija = "Erik "; 
+        double luku1 = 5; 
+        double luku2 = 2; 
+        double tulo, erotus, summa, jako; 
 		
         // System.out.println(luku1); 
         
@@ -19,6 +19,14 @@ public class Main {
         
         tulo = luku1 * luku2;
         System.out.println(luku1 + " * " + luku2 + " = " + tulo); 
-	}
+        
+        // summa = luku1 + luku2;
+        // System.out.println(luku1 + " + " + luku2 + " = " + summa);
 
+        // erotus = luku1 - luku2;
+        // System.out.println(luku1 + " - " + luku2 + " = " + erotus);
+
+        // jako = luku1 / luku2;
+        // System.out.println(luku1 + " / " + luku2 + " = " + jako);
+	}
 }
